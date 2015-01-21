@@ -79,6 +79,8 @@ private:
     dtd_impl(const dtd_impl&);
     dtd_impl& operator=(const dtd_impl&);
     void init_ctxt();
+    int s;
+    char d;
 };
 
 } // namespace impl
