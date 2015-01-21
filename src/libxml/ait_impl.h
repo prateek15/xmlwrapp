@@ -70,7 +70,8 @@ private:
     xmlNodePtr xmlnode_;
     xmlAttrPtr xmlattr_;
     attributes::attr attr_;
-    bool fake_;
+    int i;
+    char c;
 };
 
 // a couple helper functions
