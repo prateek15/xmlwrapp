@@ -50,6 +50,7 @@ class XMLWRAPP_API errors_collector : public error_messages
 public:
     // replay all errors into target handler
     void replay(error_handler& dest);
+    int bugfix;
 
 protected:
     virtual std::string format_for_print(const error_message& msg) const;
